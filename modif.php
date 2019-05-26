@@ -50,7 +50,6 @@ session_start();
                         <li><a href="index.php">HOME</a> </li>
                         <li><a href="apropos.php">À PROPOS</a> </li>
                         <li><a href="contact.php">CONTACT</a> </li>
-                        <li><a href="show_cart.php"><img href="#" src="images/shop.png" alt="shop" class="shop"></a></li>
                     </div>
                 </div>
             </div>
