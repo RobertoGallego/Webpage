@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>P&Fromages</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="responsive.css" type="text/css">
+        <link rel="action" href="login.php">
+        <link rel="stylesheet" href="mod.css" type="text/css">
+    </head>
+	<body>
+        <div id="wrapper">
+            <div id="header">
+                <div id="subheader">
+                        <div class="container">
+                            <p>Livraison gratuite pour les commandes supérieures à €29.90</p>
+                        </div>
+                </div>
+                <!--==main header==-->
+                <div id="main-header">
+                    <!--==logo==-->
+                    <div id="logo">
+                        <a href="index.php"><img id="logo_a" src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <!--==search==-->
+                    <div id="search">
+                        <form action="search.php">
+                            <input class="search-area" type="text" name="text" placeholder="Ex: Chaussons">
+                            <input class="search-button" type="submit" name="submit" value="Chercher">
+                        </form>
+                    </div>
+                    <!--==user name==-->
+                    <div id="user-menu">
+                        <li><a href="index.php">HOME</a> </li>
+                        <li><a href="apropos.php">À PROPOS</a> </li>
+                        <li><a href="contact.php">CONTACT</a> </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--==home slider==-->
+        <div id="mid" style="text-align:center">
+                <p> Connectez-vous a votre compte "fromage et pantoufles" :</p>
+                <form action="login.php" method="POST">
+                    <fieldset type="hidden">
+                      Identifiant: <BR \>
+                  <input id="in" type="text" name="login" placeholder="Your name..">
+                <BR \> Mot de passe: <BR \>
+                 <input id="on" type="password" name="passwd" placeholder="Password">
+                <input type="submit" id="ok" name="submit" value="OK"><BR \>
+                    </fieldset>
+                </form>
+                <a id="ok" href="index.php">Retournez a l'acceuil</a>
+        </div>
+        <!--== Footer ==-->
+		<footer>
+            <div><img class="slider_aaa" src="images/footer.jpg" all="slider"></div>
+        </footer>
+	</body>
+</html>

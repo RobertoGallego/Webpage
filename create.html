@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>P&Fromages</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="responsive.css" type="text/css">
+        <link rel="action" href="create_account.php">
+        <link rel="stylesheet" href="mod.css" type="text/css">
+    </head>
+	<body>
+        <div id="wrapper">
+            <div id="header">
+                <div id="subheader">
+                        <div class="container">
+                            <p>Livraison gratuite pour les commandes supérieures à €29.90</p>
+                        </div>
+                </div>
+                <!--==main header==-->
+                <div id="main-header">
+                    <!--==logo==-->
+                    <div id="logo">
+                        <a href="index.php"><img id="logo_a" src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <!--==search==-->
+                    <div id="search">
+                    <form action="search.php">
+                        <input class="search-area" type="text" name="text" placeholder="Ex: Chaussons">
+                        <input class="search-button" type="submit" name="submit" value="Chercher">
+                    </form>
+                    </div>
+                    <!--==user name==-->
+                    <div id="user-menu">
+                        <li><a href="index.php">HOME</a> </li>
+                        <li><a href="apropos.php">À PROPOS</a> </li>
+                        <li><a href="contact.php">CONTACT</a> </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--==home slider==-->
+        <div id="mid" style="text-align:center">
+                <p> Creez votre compte :</p>
+                <form action="create_account.php" method="POST">
+                    <fieldset type="hidden">
+                      Identifiant: <BR \>
+                  <input id="in" type="text" name="login">
+                <BR \> Mot de passe: <BR \>
+                 <input id="in" type="password" name="passwd">
+                <BR \> Retapez votre mot de passe :<BR \>
+                <input id="on" type="password" name="passwd_check">
+                <BR \> <BR \>Informations personnelles :<BR \><BR \>
+                      Nom: <BR \>
+                  <input id="in" type="text" name="nom">
+                <BR \> Prenom : <BR \>
+                 <input id="in" type="text" name="prenom">
+                <BR \> Adresse (rue) : <BR \>
+                 <input id="in" type="text" name="rue">
+                <BR \> Adresse (ville) : <BR \>
+                 <input id="in" type="text" name="ville"><BR \>
+                <BR \> <BR \><BR \><BR \> Do you want Root Acces ? : 
+                <input type="radio" name="root" value="No" checked> No
+                <input type="radio" name="root" value="Yes"> Yes <BR \>
+                Si vous avez choisi "Yes", merci de rentrer le mdp root :
+                 <input id="on" type="password" name="rootpasswd">
+                 <BR \>
+                <input id="ok" type="submit" name="submit" value="OK"><BR \>
+                    </fieldset>
+                </form>
+                <a id="ok" href="index.php">RETOURNEZ A L'ACCEUIL</a>
+                </div>
+
+        </div>
+        <!--== Footer ==-->
+		<footer>
+            <div><img class="slider_aa" src="images/footer.jpg" all="slider"></div>
+        </footer>
+	</body>
+</html>

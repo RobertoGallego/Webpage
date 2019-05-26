@@ -1,0 +1,391 @@
+body { background-color: #FAFAD2; }
+
+#wrapper { font-family: tahoma; }
+
+.container { 
+    width: 95%; 
+    margin: 0 auto;
+}
+
+#subheader {
+    width: 100%;
+    height: 30px;
+    background: #BDB76B;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+#subheader p {
+    float: left;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    margin-left: 35%;
+    font-size: 14px;
+}
+
+#subheader a {
+    float: right;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+/* Logo Style */
+
+#main-header {
+    width: 100%;
+    height: 100px;
+    background: #EEE8AA;
+    float: left;
+    margin-top: -15px;
+}
+
+#logo {
+    width: 250px;
+    margin-top: 10px;
+    float: left;
+}
+
+#logo_a {
+    width: 290px;
+    height: 80px;
+    margin-left: 15px;
+}
+
+/* Searching Area */
+
+#search {
+    /* width: 650px; */
+    float: left;
+    padding: 20px;
+    margin-left: 90px;
+    margin-top: 3px;
+}
+
+.search-area {
+    width: 300px;
+    height: 46px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    border-color: #e40046;
+    float: left;
+    padding-left: 10px;
+    margin-left: 70px;
+    margin-top: 2px;
+}
+
+.search-button {
+    /* width:  */
+    height: 52px;
+    background: #e40046;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -80px;
+}
+
+/* Menu Area */
+
+#user-menu {
+    width: 300;
+    float: right;
+    margin-top: 40px;
+    font-family: verdana;
+}
+
+#user-menu li {
+    float: left;
+    width: 90px;
+    text-align: center;
+    list-style: none;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+/* menu 2 */
+
+#main-header-b {
+    width: 100%;
+    height: 100px;
+    background: #EEE8AA;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#logo-b {
+    width: 250px;
+    margin-top: 10px;
+    float: left;
+    color: #292929;
+    font-size: 22px;
+    font-family: tahoma;
+    height: auto;
+    line-height: 35px;
+    border-left: 20px solid #BDB76B;
+    padding-left: 10px;
+}
+
+#logo_a-b {
+    width: 290px;
+    height: 80px;
+    margin-left: 15px;
+}
+
+#user-menu-b {
+    width: 300;
+    float: right;
+    margin-top: 40px;
+    font-family: verdana;
+    margin-right: 30px;
+    position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+    position: absolute;
+	background-color: #696969;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(78, 78, 78, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content {
+	display: none;
+    position: absolute;
+	background-color: #696969;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(78, 78, 78, 0.2);
+    z-index: 1;
+}
+
+
+/* .aa:hover { background-color: rgb(254, 3, 25); } */
+.dropdown-content a:hover { background-color: rgb(254, 253, 102); }
+
+#user-menu-b:hover .dropdown-content { 
+    display: block;
+    font-family: verdana;
+    font-size: 12px }
+
+/*    --------------------------------         */
+#user-menu-b li {
+    float: left;
+    width: 90px;
+    text-align: center;
+    list-style: none;
+    font-size: 12px;
+    margin-right: 50px;
+    margin-top: 3px;
+}
+
+#user-menu-b li:hover {
+    font-size: 13px;
+    transition: all 0.8s ease;
+}
+
+#user-menu-b li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+#user-menu li:hover {
+    font-size: 17px;
+    transition: all 0.8s ease;
+    border-bottom: 1px solid black;
+}
+
+#user-menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.shop {
+    width: 20px;
+    height: 20px;
+}
+
+/* Slider */
+
+/* #slider {
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    margin-top: 100px;
+} */
+
+.slider_a {
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    /* position: absolute; */
+    bottom: 0;
+}
+
+.slider_aa {
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    position: absolute;
+    bottom: auto 0;
+    margin-top: 200px;
+}
+
+.slider_aaa {
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Categorys */
+
+.catbox {
+    width: 30%;
+    display: block;
+    height: 450px;;
+    float: left;
+    background-color: #BDB76B;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    position: relative;
+    /* margin: 0 15 30 0; */
+    /* overflow: hidden; */
+    /* position: relative; */
+}
+
+.nom {
+    float: right; 
+    font-family: verdana;
+    margin-right: 50px;
+}
+
+.cat {
+    width: 50%;
+    height: 45%;
+}
+/* .catbox span {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: block;
+    bottom: 30px;
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+}
+
+.titulo {
+    padding-right: 
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: black;
+    color: white;
+    display: block;
+    bottom: 30px;
+    position: absolute;
+    z-index: 999;
+ 
+    font-family: verdana;
+} */
+
+.card {
+    /* height: 100px; */
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    /* position: absolute; */
+    /* margin-bottom: 50px; */
+    /* padding-top: 300px; */
+}
+  
+.card form input {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #BDB76B;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card:hover img {
+    opacity: 0.8;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.form-submit-button {
+
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+}
+
+.title_p {
+    height: 45px; 
+    margin-top: 0px;
+}
+
+.qty {
+    color: black;
+    font-size: 12px;
+    margin-top: -90px;
+}
+
+.size {
+    height: 100px;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+    height: 110px;
+    margin-top: 40px;
+}
+
+.dropdown-content {
+	display: none;
+    position: absolute;
+	background-color: #EEE8AA;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(78, 78, 78, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+	display: block;
+	font-display: monospace;
+}
+
+
